@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", // to compile all into one dir
+        "resolveJsonModule": true, // to load JSONs
+        "esModuleInterop": true, // prevent usage import * as variable from ...
+        "sourceMap": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

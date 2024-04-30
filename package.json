@@ -1,0 +1,30 @@
+{
+  "name": "vy-languages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fdb": "tsc && node dist/scripts/fill-db",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyasinskiy/vy-languages.git"
+  },
+  "author": "Vitaliy Yasinskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyasinskiy/vy-languages/issues"
+  },
+  "homepage": "https://github.com/vyasinskiy/vy-languages#readme",
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "@types/pg": "^8.11.5",
+    "dotenv": "^16.4.5",
+    "node": "^22.0.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
