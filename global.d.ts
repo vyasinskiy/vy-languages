@@ -1,7 +1,7 @@
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
-      USER: string;
+      PGUSER: string;
       PGPASSWORD: string;
       PGHOST: string;
       PGDATABASE: string;

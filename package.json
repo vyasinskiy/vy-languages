@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fdb": "tsc && node dist/scripts/fill-db",
-    "build": "tsc"
+    "seed-db": "tsc && node dist/scripts/seed-db"
   },
   "repository": {
     "type": "git",
@@ -20,11 +19,13 @@
   "dependencies": {
     "@types/node": "^20.12.7",
     "@types/pg": "^8.11.5",
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "node": "^22.0.0",
     "pg": "^8.11.5"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "ts-node": "^10.9.2"
   }
 }
